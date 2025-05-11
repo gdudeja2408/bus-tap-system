@@ -14,7 +14,7 @@ This project processes tap-on and tap-off events from passengers and generates c
   - CANCELLED: Tap-on and tap-off occur at the same stop.
   - INCOMPLETE: Tap-on without a corresponding tap-off.
 - Fares are symmetric between stops, meaning traveling from Stop1 to Stop2 costs the same as Stop2 to Stop1.
-
+- Tap event is invalid and rejected if tap-off occur without a corresponding tap-on. 
 ---
 
 ## Instructions to Run the Application
